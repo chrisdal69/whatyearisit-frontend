@@ -1,5 +1,5 @@
 
-fetch("http://localhost:3000/year")
+fetch("https://whatyearisit-backend-nu-seven.vercel.app/year")
     .then(res => res.json())
     .then(d=>{
         console.log(d);
